@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+	/*border:1px solid gray;*/
+	color: white;
+	font-family: 'Mukta', sans-serif;
+}
+
+body{
+	background-image: url("11556-a-wood-grain-texture-pv.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.inbox, #done{
+    margin: 30px;
+}
+input{
+	color: white;
+    background-color: black;
+    opacity: 0.5;
+    font-size: 24px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+a{
+	color: white;
+    background-color: black;
+    font-size: 23px;
+    opacity: 0.5;
+    padding: 15px 75px 15px 9px;
+    margin: 5px 0 14px 1px;
+    border-radius: 8px;
+}
+.list{
+   margin-top: 34px; 
+}
+.list li {
+    list-style: none;
+}
+li{
+    margin-top: 10px;
+    /* width: 100%; */
+    padding: 25px;
+    background-color: white;
+    color: black;
+    border-radius:8px;
+}
